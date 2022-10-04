@@ -1,7 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
+
 from prog.q1 import programming_function_1
 from prog.q2 import programming_function_2
+from prog.q4 import programming_function_4
 
 
 def theory_function_3a():
@@ -71,6 +73,7 @@ def theory_function_3c():
     plt.savefig("img/theory/Figure_3c.png", dpi=95)
     plt.show()
 
+
 if __name__ == "__main__":
     # Theory part
     theory_function_3a()
@@ -80,3 +83,4 @@ if __name__ == "__main__":
     # Programming part
     programming_function_1()
     programming_function_2()
+    programming_function_4()

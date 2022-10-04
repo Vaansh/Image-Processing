@@ -7,4 +7,5 @@ My work for COMP 478 (Image Processing) at Concordia University.
 - [Prince](https://www.princexml.com)
 - [yapf](https://github.com/google/yapf)
 - [black](https://github.com/psf/black)
+- [pipreqs](https://github.com/bndr/pipreqs)
 
