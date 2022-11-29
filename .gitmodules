@@ -1,3 +1,4 @@
 [submodule "Bilateral Filtering"]
 	path = Bilateral Filtering
 	url = https://github.com/Vaansh/Bilateral-Filtering.git
+	branch = main
