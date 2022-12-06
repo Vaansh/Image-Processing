@@ -21,7 +21,7 @@ def wavelet(wavelet, levels=3):
             cv2.imshow("Original Image", cv2.imread("img/lena.tif"))
             continue
 
-        coeff = pywt.wavedec2(image, wavelet="db4", level=level)
+        coeff = pywt.wavedec2(image, wavelet=wavelet, level=level)
         coeff[0] /= np.abs(coeff[0]).max()
 
         for l in range(level):
@@ -42,7 +42,7 @@ def wavelet(wavelet, levels=3):
 
 def main():
     wavelet("haar")
-    wavelet("db4")
+    # wavelet("db4")
 
 
 if __name__ == "__main__":
